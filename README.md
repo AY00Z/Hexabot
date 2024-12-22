@@ -6,9 +6,8 @@ Welcome to the **MentalHealth Care Hexabot** project! This repository serves as 
 Hexabot simplifies creating and managing AI-powered, multi-channel, and multilingual chatbots. This project offers features such as:
 - Calming advice and helpful tips for users.
 - Symptom analysis using the **Ollama plugin**.
-- Appointment scheduling with known or new doctors.
+- Scheduling appointments with user-selected known doctors or new ones.
 - Seamless availability checks via **Calendly**.
-- Doctor recommendations based on user location using a map API.
 
 # Features
 - **Empathetic Responses**: Tailored interactions designed to make users feel understood and supported.
