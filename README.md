@@ -1,22 +1,36 @@
-# Hexabot Template Starter
+# MentalHealth Care Hexabot
 
-Welcome to the **Hexabot Template Starter** repository! This template provides everything you need to get started with building a custom Hexabot project. It includes essential folders and files to help you extend Hexabot, define your own modules, and quickly run your project in Docker. Below you'll find details on the structure and how to use this template.
+# Overview
+Welcome to the **MentalHealth Care Hexabot** project! This repository serves as the foundation for building a Hexabot solution tailored to improving mental health care experiences. Using Hexabot's powerful open-source framework, this project integrates advanced AI capabilities to provide personalized support, scheduling, and seamless user interaction.
 
-Not familiar with [Hexabot](https://hexabot.ai/) ? It's an open-source chatbot / agent solution that allows users to create and manage AI-powered, multi-channel, and multilingual chatbots with ease. If you would like to learn more, please visit the [official github repo](https://github.com/Hexastack/Hexabot/).
+Hexabot simplifies creating and managing AI-powered, multi-channel, and multilingual chatbots. This project offers features such as:
+- Calming advice and helpful tips for users.
+- Symptom analysis using the **Ollama plugin**.
+- Appointment scheduling with known or new doctors.
+- Seamless availability checks via **Calendly**.
+- Doctor recommendations based on user location using a map API.
 
-## Project Structure
+# Features
+- **Empathetic Responses**: Tailored interactions designed to make users feel understood and supported.
+- **Personalized Guidance**: Analyze user responses to provide calming advice and symptom insights.
+- **Appointment Scheduling**: Use the Doctor List plugin to find and book appointments with doctors.
+- **Integration with Calendly**: Ensure smooth scheduling with real-time availability.
+- **Extendable Framework**: Easily add new plugins and channels for enhanced functionality.
+- 
+# Project Structure
+- **extensions/**:
+  - **plugins/**: Includes the core plugins like Doctor List, Calendly integration, and symptom analysis using Ollama.
+  - **helpers/**: Custom utility functions for specific tasks.
+  - **channels/**: Support for additional messaging platforms.
+- **modules/**: Extend Hexabot’s API with new controllers and services.
+- **Dockerfile**: Pre-configured for building and deploying the project in a containerized environment.
+- **docker/docker-compose.yml**: Defines services like databases and dependencies for running the project via Docker Compose.
+# Getting Started
 
-- **extensions/**: This folder is where you can develop your own extensions for Hexabot. Inside, you'll find subfolders for:
-
-  - **channels/**: Add new messaging channels.
-  - **helpers/**: Add helper functions or utilities.
-  - **plugins/**: Create plugins to create custom blocks in the visual editor. Plugins is where you can perform text-to-action and integrate with 3rd party APIs. To get started, there is a `hello` plugin provided as an example.
-
-- **modules/**: Since Hexabot API is built on top of NestJS, this folder allows you to extend the Hexabot API by adding your own modules (controllers, services, etc.).
-
-- **Dockerfile**: Use this file to build a Docker image on top of Hexabot. It's pre-configured to get your project up and running in a containerized environment.
-
-- **docker/docker-compose.yml**: This file defines the services needed to run your Hexabot project using Docker Compose. It simplifies the setup of multiple services such as databases or other dependencies.
+## Step 1: Install Hexabot CLI
+Install the Hexabot CLI globally to create and manage projects:
+```bash
+npm install -g hexabot-cli
 
 ## Getting Started
 
@@ -116,4 +130,4 @@ This software is licensed under the GNU Affero General Public License v3.0 (AGPL
 
 ---
 
-Happy building with Hexabot! 🎉
+Happy building with MentalHealth Hexabot! 🎉
