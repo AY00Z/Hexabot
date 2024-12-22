@@ -15,7 +15,6 @@ Hexabot simplifies creating and managing AI-powered, multi-channel, and multilin
 - **Appointment Scheduling**: Use the Doctor List plugin to find and book appointments with doctors.
 - **Integration with Calendly**: Ensure smooth scheduling with real-time availability.
 - **Extendable Framework**: Easily add new plugins and channels for enhanced functionality.
-- 
 # Project Structure
 - **extensions/**:
   - **plugins/**: Includes the core plugins like Doctor List, Calendly integration, and symptom analysis using Ollama.
